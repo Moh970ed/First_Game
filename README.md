@@ -1,8 +1,8 @@
 # 🎮 First-Game-Godot: A Professional 2D Platformer
 
-<!-- Placeholder for Project Banner/Screenshot -->
+<!-- Project Banner/Screenshot -->
 <p align="center">
-  <img src="assets/sprites/knight.png" alt="Main Character Sprite" width="150"/>
+  <img src="assets/images/project-banner.png" alt="First-Game Godot Project Screenshot" width="100%"/>
 </p>
 
 [![Godot Engine](https://img.shields.io/badge/Godot-4.x-478cbf?style=for-the-badge&logo=godot-engine&logoColor=white)](https://godotengine.org/)
@@ -13,65 +13,38 @@
 
 ## 🌟 Overview
 
-هذا المشروع يمثل **نقطة انطلاق احترافية** في تطوير الألعاب ثنائية الأبعاد باستخدام محرك **Godot Engine 4.x**. تم تصميم المشروع بهيكلة معيارية ونظيفة، مع التركيز على أفضل الممارسات البرمجية لضمان سهولة التوسع والصيانة. إنه ليس مجرد لعبة، بل هو **قالب متكامل** يمكن للمطورين البناء عليه لإنشاء مشاريعهم الخاصة.
+This project serves as a **professional starting point** for 2D game development using the **Godot Engine 4.x**. It is designed with a clean, modular architecture, focusing on best programming practices to ensure easy scalability and maintenance. It is not just a game; it is a **complete template** that developers can build upon to create their own unique projects.
 
 ## ✨ Key Features
 
-تم بناء المشروع على أساس متين من الميزات الأساسية لألعاب المنصات:
+The project is built on a solid foundation of essential platformer features:
 
-*   **نظام تحكم متجاوب (Responsive Controls):** حركة شخصية دقيقة وسلسة، تشمل الجري، القفز، والقفز المزدوج (Double Jump).
-*   **إدارة المشاهد (Scene Management):** استخدام مبدأ **Composition over Inheritance** في Godot، حيث يتم فصل الكيانات (مثل اللاعب، الأعداء، العملات) إلى مشاهد مستقلة قابلة لإعادة الاستخدام.
-*   **هيكلة الأصول (Asset Organization):** تنظيم دقيق للموارد الرسومية والصوتية داخل مجلد `assets/` لسهولة الوصول والتعديل.
-*   **نظام صوتي متكامل:** دمج مؤثرات صوتية (SFX) للمس، القفز، وجمع العملات، بالإضافة إلى موسيقى خلفية (BGM).
+*   **Responsive Controls:** Smooth and precise character movement, including running, jumping, and double jump mechanics.
+*   **Scene Management:** Utilizes the **Composition over Inheritance** principle in Godot, separating entities (Player, Enemies, Collectibles) into reusable, independent scenes.
+*   **Asset Organization:** Meticulous organization of graphical and audio resources within the `assets/` folder for easy access and modification.
+*   **Integrated Audio System:** Includes sound effects (SFX) for movement, jumping, and coin collection, alongside background music (BGM).
 
 ## ⚙️ Technical Stack
 
-| المكون | التقنية | الوصف |
+| Component | Technology | Description |
 | :--- | :--- | :--- |
-| **المحرك** | Godot Engine 4.x | محرك الألعاب الرئيسي مفتوح المصدر. |
-| **لغة البرمجة** | GDScript | لغة برمجة Godot الخفيفة والمُحسّنة. |
-| **الرسوميات** | Pixel Art | استخدام فن البكسل لأسلوب بصري كلاسيكي. |
-| **الترخيص** | MIT License | ترخيص مفتوح المصدر يسمح بالاستخدام التجاري. |
+| **Engine** | Godot Engine 4.x | The main open-source game engine used. |
+| **Language** | GDScript | Godot's lightweight and optimized scripting language. |
+| **Graphics** | Pixel Art | Utilizes a classic pixel art style for visual appeal. |
+| **License** | MIT License | An open-source license allowing commercial use. |
 
 ## 📂 Project Architecture
 
-تم تنظيم المشروع ليعكس أفضل الممارسات في تطوير Godot:
+The project structure reflects Godot development best practices:
 
-| المجلد/الملف | الغرض | ملاحظات احترافية |
+| Folder/File | Purpose | Professional Notes |
 | :--- | :--- | :--- |
-| `project.godot` | ملف الإعداد الرئيسي | يحتوي على إعدادات المشروع، الإدخالات، والمشهد الافتراضي. |
-| `assets/` | الأصول والموارد | **يجب** أن يحتوي على جميع الخطوط، الأصوات، والرسوميات. |
-| `scenes/` | مشاهد اللعبة (.tscn) | مشاهد قابلة لإعادة الاستخدام مثل `player.tscn` و `coin.tscn`. |
-| `scripts/` | منطق اللعبة (.gd) | جميع ملفات GDScript، مفصولة عن المشاهد لزيادة الوضوح. |
-| `LICENSE` | ترخيص المشروع | يحدد حقوق المستخدمين والمطورين. |
-| `README.md` | وثائق المشروع | هذا الملف الذي تقرأه. |
-
-## 🚀 Getting Started
-
-للبدء في تشغيل وتطوير المشروع، اتبع الخطوات التالية:
-
-### Prerequisites
-
-تأكد من تثبيت **Godot Engine 4.x** أو أحدث.
-
-### Installation
-
-1.  **استنساخ المستودع (Clone the Repository):**
-    ```bash
-    git clone https://github.com/Mohamed-Elsayed970/Game.git
-    ```
-2.  **الدخول إلى المجلد:**
-    ```bash
-    cd Game
-    ```
-3.  **فتح المشروع:**
-    *   افتح محرك Godot.
-    *   انقر على **Import** واختر ملف `project.godot` داخل المجلد.
-    *   انقر على **Import & Edit**.
-
-### Running the Game
-
-بمجرد فتح المشروع في المحرر، اضغط على زر **Play** (أو **F5**) لتشغيل اللعبة.
+| `project.godot` | Main Configuration File | Contains project settings, input maps, and the default scene. |
+| `assets/` | Assets and Resources | **Must** contain all fonts, sounds, and graphics. |
+| `scenes/` | Game Scenes (.tscn) | Reusable scenes like `player.tscn` and `coin.tscn`. |
+| `scripts/` | Game Logic (.gd) | All GDScript files, separated from scenes for clarity. |
+| `LICENSE` | Project License | Defines user and developer rights. |
+| `README.md` | Project Documentation | The file you are currently reading. |
 
 ## 🗺️ Project Roadmap
 
@@ -86,12 +59,39 @@ The development of this project follows a structured roadmap to ensure continuou
 | 💡 Planned | UI/HUD System | Score display, health bar, and pause menu. |
 | 💡 Planned | Multiple Levels | Expanding the game with 3-5 unique levels. |
 
+## 🚀 Getting Started
+
+To run and develop this project, follow these steps:
+
+### Prerequisites
+
+Ensure you have **Godot Engine 4.x** or later installed.
+
+### Installation
+
+1.  **Clone the Repository:**
+    ```bash
+    git clone https://github.com/Mohamed-Elsayed970/Game.git
+    ```
+2.  **Navigate to the Directory:**
+    ```bash
+    cd Game
+    ```
+3.  **Open the Project:**
+    *   Open the Godot Engine.
+    *   Click **Import** and select the `project.godot` file inside the directory.
+    *   Click **Import & Edit**.
+
+### Running the Game
+
+Once the project is open in the editor, press the **Play** button (or **F5**) to start the game.
+
 ## 🤝 Contributing
 
-نرحب بأي مساهمات لتحسين هذا القالب! إذا كان لديك اقتراحات أو وجدت أخطاء، يرجى:
-1.  فتح **Issue** لوصف المشكلة أو الميزة المقترحة.
-2.  إنشاء **Pull Request** مع التغييرات المقترحة.
+We welcome any contributions to improve this template! If you have suggestions or find bugs, please:
+1.  Open an **Issue** to describe the problem or proposed feature.
+2.  Create a **Pull Request** with your suggested changes.
 
 ## 📄 License
 
-هذا المشروع مرخص بموجب **ترخيص MIT**. انظر ملف [LICENSE](LICENSE) لمزيد من التفاصيل.
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for more details.
