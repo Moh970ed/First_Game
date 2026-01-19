@@ -73,7 +73,7 @@ I have successfully implemented the following core features in this game:
 
 - [x] Add sound effects
 
-- [ ] Implement score system
+- [x] Implement score system
 
 ---
 
