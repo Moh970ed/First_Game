@@ -5,6 +5,7 @@
 </p>
 
 [![Godot Engine](https://img.shields.io/badge/Godot-4.x-478cbf?style=for-the-badge&logo=godot-engine&logoColor=white)](https://godotengine.org/)[![License](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)[![GitHub Repo Size](https://img.shields.io/github/repo-size/Mohamed-Elsayed970/Game?style=for-the-badge)](https://github.com/Mohamed-Elsayed970/Game)
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=mohamed-elsayed970&label=Profile%20views&color=0e75b6&style=flat" alt="mohamed-elsayed970" /> </p>
 
 ---
 
