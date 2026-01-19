@@ -1,7 +1,7 @@
 # 🎮 First-Game-Godot: A Professional 2D Platformer
 
 <!-- Project Banner/Screenshot --> <p align="center">
-<img src="assets/images/project-banner.png" alt="First-Game Godot Project Screenshot" width="100%"/>
+<img src="assets/images/project-banner.png" alt="First-Game Godot Project Screenshot" width="50%"/>
 </p>
 
 [![Godot Engine](https://img.shields.io/badge/Godot-4.x-478cbf?style=for-the-badge&logo=godot-engine&logoColor=white)](https://godotengine.org/)[![License](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)[![GitHub Repo Size](https://img.shields.io/github/repo-size/Mohamed-Elsayed970/Game?style=for-the-badge)](https://github.com/Mohamed-Elsayed970/Game)
