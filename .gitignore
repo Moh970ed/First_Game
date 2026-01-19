@@ -1,11 +1,3 @@
 # Godot 4+ specific ignores
 .godot/
 /android/
-*.import
-export_preset.cfg
-.mono/
-data_*/
-
-# OS-specific ignores
-.DS_Store
-Thumbs.db
