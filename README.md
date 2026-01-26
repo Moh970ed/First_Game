@@ -125,7 +125,7 @@ Ensure you have **Godot Engine 4.x** or later installed.
 1. **Navigate to the Directory:**
 
    ```bash
-   cd Game
+   cd First_Game
    ```
 
 1. **Open the Project:**
