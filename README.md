@@ -119,7 +119,7 @@ Ensure you have **Godot Engine 4.x** or later installed.
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/Mohamed-Elsayed970/Game.git
+   git clone https://github.com/Mohamed-Elsayed970/First_Game.git
    ```
 
 1. **Navigate to the Directory:**
