@@ -1,11 +1,12 @@
 # 🎮 First-Game-Godot: A Professional 2D Platformer
 
 <!-- Project Banner/Screenshot --> <p align="center">
-<img src="assets/images/project-banner.png" alt="First-Game Godot Project Screenshot" width="50%"/>
+<img src="assets/images/project-banner.png" alt="First-Game Godot Project Screenshot" width="100%"/>
+</p> <p align="center">
+  <img src="https://img.shields.io/badge/Godot-4.x-478cbf?style=for-the-badge&logo=godot-engine&logoColor=white" alt="Godot Engine"/>
+  <img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge" alt="License"/>
+  <img src="https://img.shields.io/badge/Repo%20Size-102%20MB-blue?style=for-the-badge" alt="Repo Size"/>
 </p>
-
-[![Godot Engine](https://img.shields.io/badge/Godot-4.x-478cbf?style=for-the-badge&logo=godot-engine&logoColor=white)](https://godotengine.org/)[![License](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)[![GitHub Repo Size](https://img.shields.io/github/repo-size/Mohamed-Elsayed970/Game?style=for-the-badge)](https://github.com/Mohamed-Elsayed970/Game)
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=mohamed-elsayed970&label=Profile%20views&color=0e75b6&style=flat" alt="mohamed-elsayed970" /> </p>
 
 ---
 
@@ -70,23 +71,50 @@ I have successfully implemented the following core features in this game:
 
 ---
 
+## ⚙️ Technical Stack
+
+| Component | Technology | Description |
+| --- | --- | --- |
+| **Engine** | Godot Engine 4.x | The main open-source game engine used. |
+| **Language** | GDScript | Godot's lightweight and optimized scripting language. |
+| **Graphics** | Pixel Art | Utilizes a classic pixel art style for visual appeal. |
+| **Icon** | Custom .ico | Custom designed knight icon for the executable. |
+
+---
+
 ## 📝 Future Improvements
 
 - [x] Add sound effects
 
 - [x] Implement score system
 
+- [ ] Add multiple levels and biomes
+
+- [ ] Implement a main menu and pause system
+
 ---
 
 ## 🚀 Getting Started
 
-To run and develop this project, follow these steps:
+### 🕹️ Play the Game (Windows )
 
-### Prerequisites
+If you just want to play the game, you can run it directly without installing Godot:
+
+1. Download the project files.
+
+1. Locate the `First_Game.exe` file in the root directory.
+
+1. Double-click `First_Game.exe` to start playing!
+
+### 🛠️ Development & Source Code
+
+To run and develop this project from source, follow these steps:
+
+#### Prerequisites
 
 Ensure you have **Godot Engine 4.x** or later installed.
 
-### Installation
+#### Installation
 
 1. **Clone the Repository:**
 
@@ -105,9 +133,15 @@ Ensure you have **Godot Engine 4.x** or later installed.
   - Click **Import** and select the `project.godot` file inside the directory.
   - Click **Import & Edit**.
 
+
+
 ---
 
 ## 📄 License
 
 This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for more details.
+
+---
+
+<p align="center">Made with ❤️ by Mohamed Elsayed</p>
 
