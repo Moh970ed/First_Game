@@ -90,7 +90,7 @@ I have successfully implemented the following core features in this game:
 
 - [ ] Add multiple levels and biomes
 
-- [ ] Implement a main menu and pause system
+- [x] Implement a main menu and pause system
 
 ---
 
