@@ -88,7 +88,7 @@ I have successfully implemented the following core features in this game:
 
 - [x] Implement score system
 
-- [ ] Add multiple levels and biomes
+- [x] Add multiple levels and biomes
 
 - [x] Implement a main menu and pause system
 

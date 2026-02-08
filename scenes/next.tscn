@@ -1,0 +1,21 @@
+[gd_scene load_steps=4 format=3 uid="uid://ceoy8w3su54wv"]
+
+[ext_resource type="Script" uid="uid://dmq67kroky0ux" path="res://scripts/next.gd" id="1_xi34d"]
+[ext_resource type="Texture2D" uid="uid://dq38agfp7dr0r" path="res://assets/sprites/world_tileset.png" id="2_xi34d"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_xi34d"]
+size = Vector2(14, 14)
+
+[node name="Next" type="Area2D"]
+collision_mask = 2
+script = ExtResource("1_xi34d")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_xi34d")
+region_enabled = true
+region_rect = Rect2(64, 32, 16, 16)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_xi34d")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
